@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <!-- <link rel="stylesheet" href="css/12col.css"> -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
@@ -16,8 +17,25 @@
     <div class="main-wrapper">
       <h1><span class="fizz">Fizz</span><span class="buzz">Buzz</span></h1>
 
-      <div class="text">
+      <div class="text text-exercise">
         <p>Scrivi un programma che stampi i numeri da 1 a 100,ma per i multipli di 3 stampi <span>Fizz</span> al posto del numero e per i multipli di 5 stampi <span>Buzz</span>. Per i numeri che sono sia multipli di 3 che di 5 stampi <span>FizzBuzz</span>.</p>
+      </div>
+
+      <div class="text text-code">
+        <h2>Code</h2>
+        <p>
+          for (var i = 1; i <= 100; i++) {
+            if (i % 15 == 0) {
+              console.log("FizzBuzz");
+            } else if (i % 3 == 0) {
+              console.log("Fizz");
+            } else if (i % 5 == 0) {
+              console.log("Buzz");
+            } else {
+              console.log(i);
+            }
+          }
+        </p>
       </div>
 
       <div class="output-box">
