@@ -12,7 +12,7 @@ for (var i = 1; i <= 100; i++) {
   console.log(i);
   numbersList.innerHTML += '<li>' + i + '</li>';
   // Multipli 3 e 5
-  if (i % 3 == 0 && i % 5 == 0) {
+  if (i % 3 == 0 && i % 5 == 0) {        // i % 15 == 0
     console.log(i + 'FizzBuzz');
     numbersList.innerHTML += '<li>' + i + 'FizzBuzz </li>';
   }
@@ -21,7 +21,7 @@ for (var i = 1; i <= 100; i++) {
   console.log(i + 'Fizz');
   numbersList.innerHTML += '<li>' + i + 'Fizz </li>';
   }
-  // Multipli 5 
+  // Multipli 5
   else if (i % 5 == 0) {
     console.log(i + 'Buzz');
     numbersList.innerHTML += '<li>' + i + 'Buzz </li>';
