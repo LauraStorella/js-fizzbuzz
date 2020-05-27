@@ -12,15 +12,19 @@ for (var i = 1; i <= 100; i++) {
   // Multipli 3 e 5
   if (i % 3 == 0 && i % 5 == 0) {           // i % 15 == 0
     console.log("FizzBuzz");
+    numbersList.innerHTML += '<li> FizzBuzz </li>';
   }
   // Multipli 3
   else if (i % 3 == 0) {
     console.log("Fizz");
+    numbersList.innerHTML += '<li> Fizz </li>';
   }
   // Multipli 5
   else if (i % 5 == 0) {
     console.log("Buzz");
+    numbersList.innerHTML += '<li> Buzz </li>';
   } else {
     console.log(i);
+    numbersList.innerHTML += '<li>' + i + '</li>';
   }
 }
