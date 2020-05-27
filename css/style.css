@@ -1,3 +1,56 @@
+.main-wrapper {
+  width: 60%;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: lime;
+}
+h1 span.fizz {
+  color: lime;
+  margin: 0;
+}
+h1 span.buzz {
+  color: gold;
+  margin: 0;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: lightgray;
+  text-align: center;
+  border-radius: 5px;
+}
+.text p {
+  padding: 10px 0;
+}
+.text span {
+  font-style: italic;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 450px;
+}
+
+ul li {
+  border-radius: 5px;
+  border: 1px solid #717880;
+  margin-left: 0;
+  margin-bottom: 11px;
+  text-align: center;
+}
+
+
+
+
 /* DEBUGG - start rules*/
 /* debug {}
   .debug .container {
@@ -15,7 +68,7 @@
 /* GENERAL RULES (reset) - start */
 general rules {}
   * {
-    margin: 0;
+    margin: 15px;
     padding: 0;
     box-sizing: border-box;
   }
@@ -58,8 +111,9 @@ class_properties {}
     padding-left: 0;
     }
     ul.list-unstyled li {
-      display: inline-block;
+      /* display: inline-block; */
       list-style: none;
+      margin-top: 10px;
     }
     ul.list-unstyled li a {
       text-decoration: none;
