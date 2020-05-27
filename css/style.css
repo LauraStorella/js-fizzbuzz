@@ -55,6 +55,17 @@ ul li.gold {
   color: gold;
   font-weight: bold;
 }
+ul li.lime-gold span {
+  margin: 0;
+}
+ul li.lime-gold span.lime {
+  color: lime;
+  font-weight: bold;
+}
+ul li.lime-gold span.gold {
+  color: gold;
+  font-weight: bold;
+}
 
 
 

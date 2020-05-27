@@ -12,7 +12,7 @@ for (var i = 1; i <= 100; i++) {
   // Multipli 3 e 5
   if (i % 15 == 0) {
     console.log("FizzBuzz");
-    numbersList.innerHTML += '<li> FizzBuzz </li>';
+    numbersList.innerHTML += '<li class="lime-gold"><span class="lime">Fizz</span><span class="gold">Buzz</span></li>';
   }
   // Multipli 3
   else if (i % 3 == 0) {
