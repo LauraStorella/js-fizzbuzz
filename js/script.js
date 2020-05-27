@@ -17,12 +17,12 @@ for (var i = 1; i <= 100; i++) {
   // Multipli 3
   else if (i % 3 == 0) {
     console.log("Fizz");
-    numbersList.innerHTML += '<li> Fizz </li>';
+    numbersList.innerHTML += '<li class="lime"> Fizz </li>';
   }
   // Multipli 5
   else if (i % 5 == 0) {
     console.log("Buzz");
-    numbersList.innerHTML += '<li> Buzz </li>';
+    numbersList.innerHTML += '<li class="gold"> Buzz </li>';
   } else {
     console.log(i);
     numbersList.innerHTML += '<li>' + i + '</li>';

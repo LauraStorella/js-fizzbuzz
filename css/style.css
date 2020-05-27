@@ -47,7 +47,14 @@ ul li {
   margin-bottom: 11px;
   text-align: center;
 }
-
+ul li.lime {
+  color: lime;
+  font-weight: bold;
+}
+ul li.gold {
+  color: gold;
+  font-weight: bold;
+}
 
 
 
